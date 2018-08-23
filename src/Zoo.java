@@ -21,4 +21,21 @@ public class Zoo {
 			System.out.println(eachAnimal.toString());
 		}
 	}
+	
+	public void killAnimal(int death)
+	{	
+		for(int i = arrayAnimal.size() -1; i >= 0; i--)
+		{
+			if (arrayAnimal.get(i).getAge() >= death)
+			{
+				arrayAnimal.remove(i);
+			}
+		}	
+		
+	}
+	
+	public void killAllAnimals()
+	{
+		arrayAnimal.removeAll(arrayAnimal);
+	}
 }
