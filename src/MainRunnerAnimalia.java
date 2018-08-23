@@ -18,5 +18,6 @@ public class MainRunnerAnimalia {
 			
 			System.out.println("All Alone?");
 			zooz.printAnimal();
+		
 		}
 }
